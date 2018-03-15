@@ -1,0 +1,31 @@
+img {
+    max-width: 100%;
+}
+
+body {
+    line-height: 1.5;
+    font-size: 100%;
+    color: #313131;
+}
+
+main {
+    margin: 0 20px;
+}
+
+hr {
+    margin: 1em;
+    width: 80%;
+}
+
+p {
+    font-size: 1em;
+}
+
+address {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #777;
+}
