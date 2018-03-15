@@ -3,9 +3,14 @@ body {
     margin: 0;
 }
 
+body header section {
+  padding: 15px 0 10px 0;
+  background-color: #FFE9AD;
+}
+
 body header section h1 {
     margin-top: 0;
-    padding-top: 10px;
+    padding: 10px 0 5px 0;
 }
 
 body header section h2 {
@@ -19,26 +24,28 @@ body header nav ul {
 }
 
 .heading-group-h1  {
-    background-color: #FFE9AD;
     font-weight: bold;
     padding-left: 10px;
 }
 
 .main-nav {
     margin-top: 0px;
-    background-color: #FFE9AD;
     padding-bottom: 5px;
-    display: none;
+}
+
+.main-nav ul {
+  padding-left: 5px;
+  display: none;
 }
 
 nav ul {
     padding-left: 0;
 }
 
-header li {
+/* header li {
     list-style-type: none;
     padding: 5px 0;
-}
+} */
 
 header ul li {
     font-size: 24px;
@@ -58,9 +65,9 @@ ul a {
     zoom: 3;
 }
 
-/* .icon-menu:hover {
+.main-nav:hover ul {
   display: block;
-} */
+}
 
 main {
     padding-left: 10px;
@@ -85,5 +92,17 @@ main {
 }
 
 @media (min-width: 640px) {
+  .icon-menu {
+    display: none;
+  }
 
+  .main-nav ul {
+    display: block;
+  }
+
+  header ul li {
+      border-bottom: none;
+      display: inline;
+      padding-left: 15px;
+  }
 }
